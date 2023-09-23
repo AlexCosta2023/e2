@@ -1,23 +1,11 @@
-<!doctype html>
-<html lang='en'>
-<head>
-    <title>Project 1</title>
-    <meta charset='utf-8'>
-    <link href=data: , rel=icon>
-</head>
-<body>
-    
-<h1>Project 1</html>
+<?php
 
-<h2>Game Mechanics</h2>
-<ul>
-    <li>...</li>
-</ul>
+// + Create an array of six options (1-20)
+// + Randomly choose one of these options TWICE from the array and assign both to Player A's move
+// + Do the same for Player B so both Player A and Player B have two numbers assigned to each player.
+// + Add Player A's two numbers together and the sum is the total points they have.
+// + Do the same math for Player B to receive sum.
+// + Compare both sum values and whichever player has the most points wins.
+// + Report the results of the four rolls, the sum of their points, and the winner to the page.
 
-<h2>Results</h2>
-<ul>
-    <li>...</li>
-</ul>
-
-</body>
-</html>
+require 'index-view.php';
