@@ -13,6 +13,6 @@ while (count($cards) > 0) {
     }
 }
 
-# Verify results
+// Verify results
 var_dump($playerCards);
 var_dump($computerCards);
