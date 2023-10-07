@@ -15,7 +15,8 @@ _Any instructions/notes in italics should be removed from the template before su
 + Report the results of the four rolls, the sum of their points, and the winner to the page.
 
 ## Outside resources
-None yet
+PHP Echo Implode - https://www.php.net/manual/en/function.implode.php - used to condense 'foreach' loop I had in index-view.php
+
 
 ## Notes for instructor
 N/A
