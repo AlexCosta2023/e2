@@ -19,7 +19,6 @@
 
 <h2>Results</h2>
 <ul>
-    <!-- Originally used 'foreach' loop until I found out about 'implode'. Much better! -->
     <li>Player A Rolls: <?php echo implode(', ', $results['Player A Rolls']); ?></li>
     <li>Player A Points: <?php echo $results['Player A Points']; ?></li>
     <li>Player B Rolls: <?php echo implode(', ', $results['Player B Rolls']); ?></li>
