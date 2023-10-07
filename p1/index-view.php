@@ -3,7 +3,7 @@
 <head>
     <title>Project 1</title>
     <meta charset='utf-8'>
-    <link href=data: , rel=icon>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
     
@@ -11,12 +11,20 @@
 
 <h2>Game Mechanics</h2>
 <ul>
-    <li>...</li>
+    <li>Create an array of six options (1-20)</li>
+    <li>Randomly choose two options for Player</li>
+    <li>Sum the values of the two options for each player</li>
+    <li>Compare the sums and determin the winner</li>
 </ul>
 
 <h2>Results</h2>
 <ul>
-    <li>...</li>
+    <!-- Originally used 'foreach' loop until I found out about 'implode'. Much better! -->
+    <li>Player A Rolls: <?php echo implode(', ', $results['Player A Rolls']); ?></li>
+    <li>Player A Points: <?php echo $results['Player A Points']; ?></li>
+    <li>Player B Rolls: <?php echo implode(', ', $results['Player B Rolls']); ?></li>
+    <li>Player B Points: <?php echo $results['Player B Points']; ?></li>
+    <li>Winner: <?php echo $results['Winner']; ?></li>
 </ul>
 
 </body>
