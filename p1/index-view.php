@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang='en'>
 <head>
-    <title>Project 1</title>
+    <title>Project 1 - 20 Sided Dice Game by Alex Costa</title>
     <meta charset='utf-8'>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
