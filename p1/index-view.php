@@ -12,9 +12,9 @@
 <h2>Game Mechanics</h2>
 <ul>
     <li>Create an array of six options (1-20)</li>
-    <li>Randomly choose two options for Player</li>
+    <li>Randomly choose two options for each player</li>
     <li>Sum the values of the two options for each player</li>
-    <li>Compare the sums and determin the winner</li>
+    <li>Compare the sums and determine the winner</li>
 </ul>
 
 <h2>Results</h2>
